@@ -5,6 +5,7 @@ export const LogoutButton = () => {
     const { logout } = useAuth0();
     return (
         <button onClick={() => logout({ logoutParams: { returnTo: "https://butron-cees.github.io/CRM1" } })}>
+            LogOut
         </button>
     )
 }
