@@ -1,0 +1,163 @@
+body {
+  width: 100%;
+  height: 100%;
+  --color: #174534;
+  background-color:  #184b38;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+
+/* Estilos para la barra superior (topbar) */
+.topbar {
+  background-color: #113729;
+  /* Color de fondo del topbar */
+  padding: 10px 20px;
+  /* Padding general del topbar */
+  display: flex;
+  /* Utilizamos flexbox */
+  justify-content: flex-end;
+  /* Alineamos todos los elementos a la derecha */
+  align-items: center;
+  /* Centramos verticalmente los elementos */
+  flex-wrap: wrap;
+  /* Permite que los elementos se ajusten a una nueva línea si es necesario */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Sombra para dar profundidad */
+  z-index: 1000;
+  /* Aseguramos que la topbar esté por encima de otros elementos */
+  gap: 10px;
+  /* Espacio entre elementos */
+}
+
+/* Estilos para el saludo */
+.saludo {
+  color: #fff;
+  /* Color del texto del saludo */
+  font-size: 1rem;
+  /* Tamaño del texto del saludo */
+  padding: 10px 20px;
+  /* Padding del saludo */
+  border-radius: 5px;
+  /* Redondeamos las esquinas del saludo */
+  background-color: #184b38;
+  /* Color de fondo del saludo */
+  transition: background-color 0.3s ease;
+  /* Transición suave para el fondo */
+}
+
+/* Estilos para la imagen de perfil */
+img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  /* Hacemos la imagen circular */
+}
+
+/* Estilos para los botones */
+.topbar button {
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  background-color: #184b38;
+  /* Color de fondo del botón */
+  color: #fff;
+  /* Color del texto del botón */
+  border: none;
+  /* Sin bordes */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  cursor: pointer;
+  /* Cursor de mano para el botón */
+  transition: background-color 0.3s ease;
+  /* Transición suave para el fondo */
+}
+
+.topbar button:hover {
+  background-color: #0e2d22;
+  /* Color de fondo del botón al pasar el ratón */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 600px) {
+  .topbar {
+    justify-content: center;
+    /* Alineamos todos los elementos a la derecha */
+    padding: 5px;
+    /* Reducimos el padding general del topbar */
+    gap: 5px;
+    /* Espacio entre elementos */
+  }
+
+  .saludo {
+    font-size: 0.875rem;
+    /* Disminuimos el tamaño del texto del saludo */
+    padding: 8px 16px;
+    /* Ajustamos el padding del saludo */
+  }
+
+  button {
+    width: 4rem;
+    /* Reducimos el tamaño del botón */
+    height: 2.5rem;
+    /* Reducimos el tamaño del botón */
+    font-size: 0.875rem;
+    /* Reducimos el tamaño del texto */
+  }
+}
+
+/* Media query para pantallas medianas */
+@media (min-width: 601px) and (max-width: 900px) {
+  .topbar {
+    justify-content: center;
+    /* Alineamos todos los elementos a la derecha */
+    padding: 8px;
+    /* Ajustamos el padding general del topbar */
+    gap: 8px;
+    /* Espacio entre elementos */
+  }
+
+  .saludo {
+    font-size: 1rem;
+    /* Mantenemos el tamaño del texto del saludo */
+    padding: 10px 20px;
+    /* Mantenemos el padding del saludo */
+  }
+
+  button {
+    width: 4.5rem;
+    /* Ajustamos el tamaño del botón */
+    height: 2.75rem;
+    /* Ajustamos el tamaño del botón */
+    font-size: 0.9375rem;
+    /* Ajustamos el tamaño del texto */
+  }
+}
+
+/* Media query para pantallas grandes */
+@media (min-width: 901px) {
+  .topbar {
+    justify-content: flex-end;
+    /* Alineamos todos los elementos a la derecha */
+    padding: 10px 20px;
+    /* Mantenemos el padding general del topbar */
+    gap: 10px;
+    /* Espacio entre elementos */
+  }
+
+  .saludo {
+    font-size: 1rem;
+    /* Mantenemos el tamaño del texto del saludo */
+    padding: 10px 20px;
+    /* Mantenemos el padding del saludo */
+  }
+
+  button {
+    width: 5rem;
+    /* Mantenemos el tamaño del botón */
+    height: 3rem;
+    /* Mantenemos el tamaño del botón */
+    font-size: 1rem;
+    /* Mantenemos el tamaño del texto */
+  }
+}
