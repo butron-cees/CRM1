@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/CRM1/static/css/main.ca8c67c4.css",
-    "main.js": "/CRM1/static/js/main.49e9ee49.js",
-    "static/js/453.ef80528c.chunk.js": "/CRM1/static/js/453.ef80528c.chunk.js",
+    "main.css": "/CRM1/static/css/main.0fa657a5.css",
+    "main.js": "/CRM1/static/js/main.ab5b82ee.js",
+    "static/js/453.230af59b.chunk.js": "/CRM1/static/js/453.230af59b.chunk.js",
     "static/media/primeicons.svg": "/CRM1/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/CRM1/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/CRM1/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
     "static/media/primeicons.eot": "/CRM1/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
     "static/media/primeicons.woff": "/CRM1/static/media/primeicons.8931fda1930c3bd21e96.woff",
     "static/media/primeicons.ttf": "/CRM1/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/gelish2 (convert.io).webp": "/CRM1/static/media/gelish2 (convert.io).7a6a3cbaf6b6db5e4624.webp",
+    "static/media/Postizas5 (convert.io).webp": "/CRM1/static/media/Postizas5 (convert.io).267d9cda60bda50a3941.webp",
+    "static/media/Postizas4 (convert.io).webp": "/CRM1/static/media/Postizas4 (convert.io).52830e445c350387966e.webp",
+    "static/media/Postizas1 (convert.io).webp": "/CRM1/static/media/Postizas1 (convert.io).ef0c6eabe7b6cd4aff2d.webp",
+    "static/media/gelish1 (convert.io).webp": "/CRM1/static/media/gelish1 (convert.io).44e9667953ca7b554b8e.webp",
     "static/media/primeicons.woff2": "/CRM1/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/Postizas3 (convert.io).webp": "/CRM1/static/media/Postizas3 (convert.io).29ad68b78bbdbd9f715c.webp",
+    "static/media/gelish3.webp": "/CRM1/static/media/gelish3.a55a10685cdaac38a824.webp",
+    "static/media/Gelish5 (convert.io).webp": "/CRM1/static/media/Gelish5 (convert.io).e99be8fd005f693e94cc.webp",
+    "static/media/Gelish4 (convert.io).webp": "/CRM1/static/media/Gelish4 (convert.io).c6cf526c1cf789942dae.webp",
+    "static/media/Postizas2 (convert.io).webp": "/CRM1/static/media/Postizas2 (convert.io).06070348c35a265b95f6.webp",
     "index.html": "/CRM1/index.html",
-    "main.ca8c67c4.css.map": "/CRM1/static/css/main.ca8c67c4.css.map",
-    "main.49e9ee49.js.map": "/CRM1/static/js/main.49e9ee49.js.map",
-    "453.ef80528c.chunk.js.map": "/CRM1/static/js/453.ef80528c.chunk.js.map"
+    "main.0fa657a5.css.map": "/CRM1/static/css/main.0fa657a5.css.map",
+    "main.ab5b82ee.js.map": "/CRM1/static/js/main.ab5b82ee.js.map",
+    "453.230af59b.chunk.js.map": "/CRM1/static/js/453.230af59b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca8c67c4.css",
-    "static/js/main.49e9ee49.js"
+    "static/css/main.0fa657a5.css",
+    "static/js/main.ab5b82ee.js"
   ]
 }
