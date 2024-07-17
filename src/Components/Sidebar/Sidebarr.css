@@ -1,0 +1,74 @@
+.sidebar-lat {
+  background-color: rgba(14, 45, 34, 0.9);
+  padding: 20px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.flex {
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+.nombre {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hidden {
+  display: none;
+}
+
+.slidedown {
+  animation: slidedown 0.4s forwards;
+}
+
+.slideup {
+  animation: slideup 0.4s forwards;
+}
+
+@keyframes slidedown {
+  from {
+      height: 0;
+      opacity: 0;
+  }
+  to {
+      height: auto;
+      opacity: 1;
+  }
+}
+
+@keyframes slideup {
+  from {
+      height: auto;
+      opacity: 1;
+  }
+  to {
+      height: 0;
+      opacity: 0;
+  }
+}
+
+.us {
+  display: flex; /* Utilizamos flexbox para alinear los elementos */
+  align-items: center; /* Centramos los elementos verticalmente */
+  padding: 1rem; /* Agregamos un poco de padding para separar los elementos */
+}
+
+.us img {
+  width: 40px; /* Establecemos un ancho fijo para la imagen */
+  height: 40px; /* Establecemos un alto fijo para la imagen */
+  margin-right: 1rem; /* Agregamos un poco de espacio entre la imagen y el texto */
+}
+
+

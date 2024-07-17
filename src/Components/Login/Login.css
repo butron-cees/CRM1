@@ -1,4 +1,8 @@
-.login{
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -7,25 +11,54 @@
     background-color: #329973;
     background-image: linear-gradient(160deg, #113729 0%, #329973 100%);
 }
-.desc{
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -99%); 
+
+.entrada {
+    text-align: center;
 }
 
-.btn-shine{
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -1%); 
-    width: 10rem;
-    height: 2rem;
+.desc {
+    margin-bottom: 20px;
+}
+
+.titulo-prin {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.titulo_sec {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.boton1 {
+    margin-top: 20px;
+}
+
+button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
     font-size: 1rem;
-    background-color: #184b38; /* Color de fondo del botón */
-    color: #fff; /* Color del texto del botón */
-    border: none; /* Sin bordes */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cursor de mano para el botón */
-    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 5px;
+    background-color: #113729; 
+}
+
+.button .label {
+    position: relative;
+    z-index: 1;
+}
+
+/* Media query para hacer el botón más grande en dispositivos móviles */
+@media (max-width: 600px) {
+    button {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+    }
 }

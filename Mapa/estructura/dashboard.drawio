@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="2hW0C4ug8caNilvvseOp" name="Page-1">
+        <mxGraphModel dx="823" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="KPIS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="120" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="-Tasa de retencion&amp;nbsp;&lt;br&gt;-Tasa de Churn&lt;br&gt;-Costo de Adquisición de Clientes&lt;br&gt;-Net Promoter Score&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9">
+                    <mxGeometry y="65" width="200" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

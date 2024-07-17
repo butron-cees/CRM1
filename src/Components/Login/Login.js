@@ -2,22 +2,23 @@ import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import './Login.css'
 
-const LoginButton = () => {
+export const LoginButton = () => {
   const { loginWithRedirect } = useAuth0();
-
-    return(
-    <div className="login">
-      <section id="colorlib-hero" className="js-fullheight" data-section="home">
-        <div className="desc">
-          <h1>Bienvenido a nuestro CRM</h1>
-          <h4>Administración de visitas y clientes</h4>
+  return (
+    <div className='login'>
+      <section className='entrada'>
+        <div className='desc'>
+          <h1 className="titulo-prin">Bienvenido a nuestro CRM</h1>
+          <h2 className="titulo_sec">Administración de visitas y clientes</h2>
         </div>
-        <button onClick={() => loginWithRedirect()} class="btn-shine">
-          <span>Login</span>
-        </button>
+        <div className='boton1'>
+          <button onClick={() => loginWithRedirect()}>
+            <span className="transition"></span>
+            <span className="gradient"></span>
+            <span className="label">Iniciar Sesión</span>
+          </button>
+        </div>
       </section>
     </div>
-  ) 
-}
-
-export default LoginButton;
+  );
+};
