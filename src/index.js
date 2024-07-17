@@ -14,8 +14,8 @@ root.render(
       domain='dev-g460c2jsyv7wkw8d.us.auth0.com'
       clientId='pVqFwLVs17NONSyDqqC08BJrFYOxRstt'
       authorizationParams={{
-        redirect_uri: window.location.origin
-        // redirect_uri: "https://butron-cees.github.io/CRM1"
+        redirect_uri: "https://butron-cees.github.io/CRM1"
+        // redirect_uri: window.location.origin
       }}
     >
       <BrowserRouter>
